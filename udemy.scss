@@ -1,0 +1,236 @@
+
+@import "scss/bootstrap.scss";
+@import "scss/popover";
+#son{
+    box-shadow: 0px 0px 8px black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: indigo;
+}
+#ab {
+    width: 33%;
+}
+#abb {
+    width: 90%;
+    outline: none;
+}
+#abc{
+    margin-left: 5px;
+}
+.cat{
+    margin: 10px;
+    position: relative;
+}
+.catt {
+    display: none;
+    width: 180px;
+    height: 100hv;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    top: 40px;
+   
+  
+    border: 1px solid black;
+}
+.cat:hover .catt {
+    display: block;
+    position: absolute;
+}
+.bat {
+    margin: 10px;
+    position: relative;
+}
+.batt{
+    display: none;
+    width: 200px;
+    height: 100hv;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+  
+    border: 1px solid black;
+}
+.bat:hover .batt{
+    display: block;
+    position: absolute;
+   
+}
+.try {
+    display: none;
+    width: 250px;
+    // height: 20vh;
+    margin-top: 28px;
+    background-color: white;
+    padding: 10px;
+    right: 0px;
+    
+    box-shadow: 0px 0px 5px black;
+  
+    border: 1px solid black;
+}
+.tet {
+  margin: 10px;
+  position: relative;
+}
+.tet:hover .try {
+    display: block;
+    position: absolute;
+}
+.tett {
+    margin: 10px;
+    position: relative;
+}
+.tett:hover{
+    color: indigo;
+}
+.tett:hover .try{
+    display: block;
+    position: absolute;
+    color: indigo;
+}
+img {
+    width: 50%;
+}
+.bed {
+    background-color: rgb(248, 249, 251);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+.bad {
+    border: none;
+    box-shadow: 0px 0px 2px black;
+    padding: 10px;
+    width: 30%;
+    height: 40vh;
+    background-color: white;
+   
+    text-align: center;
+}
+.boo {
+    border: 1px solid;
+    width: 90%;
+    height: 40px;
+    margin: 10px;
+    
+
+}
+.bee {
+ padding: 5px;
+ width: 80%;
+ border: none;
+ outline: none;
+   
+    
+}
+#can{
+    position: relative;
+}
+.can{
+    display: none;
+    width: 350px;
+top: 0px;
+left: 0px;
+    
+   
+    padding: 10px;
+    box-shadow: 0px 0px 5px black;
+  
+    border: 1px solid black;
+}
+ #can:hover .can { display:inherit;
+    position: absolute;
+
+}
+.see {
+  width: 35%;
+  height: 70vh;
+    text-align: center;
+    margin: auto;
+  padding: 20px;
+    border:  none;
+}
+.win{
+    width: 80%;
+height: 7vh;
+    margin: 6px;
+    border: none;
+    box-shadow: 0px 0px 4px black;
+     background-color: white;
+     transition: 0.3s;
+
+}
+.win:hover{
+    box-shadow: 0px 0px 8px black;
+    color: indigo;
+    font-size: 20px;
+}
+.wan {
+    width: 80%;
+    height: 7vh;
+    border: 1px solid;
+    margin: auto;
+    padding: 5px;
+    margin-top: 10px
+}
+.won{
+    width: 90%;
+    border: none;
+    outline: none;
+}
+.far{
+    width: 80%;
+    height: 7vh;
+        margin: 6px;
+        border: none;
+        background-color: rgb(106, 30, 160);
+       transition: 0.3s
+ 
+}
+.far:hover{
+    height: 8vh;
+    box-shadow: 0px 0px 9px rgba( 0, 0, 0, 0.5);
+    font-size: 25px;
+    background-color: rgb(157, 63, 224);
+}
+.ref {
+    color: white;
+    font-size: 20px;
+}
+@media (max-width:700px){
+    .see{
+        width: 100%;
+    }
+    .wan{
+        padding: 5%;
+    }
+    #son{
+       flex-direction: column;
+       text-align: center;
+    }
+    #ab{
+        width: 80%;
+        margin-left: 40px;
+    }
+    .bad{
+        width: 80%;
+        height: 30vh;
+    }
+    img{
+        width: 80%;
+    }
+    .bed{
+        flex-direction: column;
+    }
+    #con{
+        flex-direction: column;
+    }
+
+}
